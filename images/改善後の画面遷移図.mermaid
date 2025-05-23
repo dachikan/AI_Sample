@@ -1,0 +1,50 @@
+graph TD
+    %% ノードの定義
+    Start["🌐 サイト訪問"]
+    Main["📋 AISample_main.php<br>メインページ"]
+    List["📑 AISampleList_with_advanced.php<br>サンプル一覧"]
+    View["👁️ View.php<br>サンプル詳細表示"]
+    Register["✏️ AISample_Register.php<br>サンプル登録/編集"]
+    History["📜 AISample_History.php<br>プロンプト履歴"]
+    Category["🏷️ Category.php<br>カテゴリ管理"]
+    Search["🔍 Search.php<br>検索結果"]
+    Login["🔑 Login.php<br>ログイン"]
+    Admin["⚙️ Admin.php<br>管理画面"]
+    
+    %% エッジの定義 - 一般ユーザーフロー
+    Start -->|"サイトアクセス"| Main
+    Main -->|"サンプル一覧を表示"| List
+    List -->|"サンプルをクリック<br>id=X"| View
+    View -->|"関連サンプルをクリック<br>id=Y"| View
+    View -->|"一覧に戻る"| List
+    Main -->|"カテゴリから探す"| Category
+    Category -->|"カテゴリ別サンプル表示"| List
+    Main -->|"検索"| Search
+    Search -->|"検索結果からサンプル選択"| View
+    
+    %% エッジの定義 - 登録済みユーザーフロー
+    Login -->|"認証成功"| Main
+    Main -->|"ログイン済みユーザー"| Register
+    View -->|"ログイン済み<br>編集ボタンクリック"| Register
+    Register -->|"保存"| View
+    Register -->|"キャンセル"| List
+    View -->|"履歴を表示"| History
+    History -->|"特定バージョンを表示"| View
+    
+    %% エッジの定義 - 管理者フロー
+    Login -->|"管理者認証"| Admin
+    Admin -->|"サンプル管理"| List
+    Admin -->|"カテゴリ管理"| Category
+    Admin -->|"新規サンプル作成"| Register
+    List -->|"管理者<br>削除ボタンクリック"| Admin
+    
+    %% スタイル設定
+    classDef mainPage fill:#f9f,stroke:#333,stroke-width:2px;
+    classDef viewPage fill:#bbf,stroke:#333,stroke-width:2px;
+    classDef listPage fill:#dfd,stroke:#333,stroke-width:2px;
+    classDef adminPage fill:#fdd,stroke:#333,stroke-width:2px;
+    
+    class Main,Start mainPage;
+    class View viewPage;
+    class List,Category,Search listPage;
+    class Admin,Login,Register adminPage;

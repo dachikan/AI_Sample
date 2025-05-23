@@ -1,0 +1,33 @@
+/* プロンプト表示用のスタイル */
+.sample-prompt {
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-family: monospace;
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+/* プロンプト表示のスクロールバーをカスタマイズ */
+.sample-prompt::-webkit-scrollbar {
+  width: 6px;
+}
+
+.sample-prompt::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 3px;
+}
+
+.sample-prompt::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 3px;
+}
+
+.sample-prompt::-webkit-scrollbar-thumb:hover {
+  background: #999;
+}

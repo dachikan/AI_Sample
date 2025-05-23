@@ -1,0 +1,226 @@
+/* プロンプト表示の修正用スタイル */
+.prompt-container {
+  font-family: "Courier New", monospace;
+  white-space: pre-wrap;
+  word-break: break-word;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  padding: 15px;
+  position: relative;
+  overflow-x: auto;
+}
+
+.prompt-container code {
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 2px 4px;
+  border-radius: 3px;
+  font-family: "Courier New", monospace;
+}
+
+.prompt-container pre {
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 4px;
+  overflow-x: auto;
+  margin: 10px 0;
+}
+
+.prompt-container blockquote {
+  border-left: 4px solid #ced4da;
+  padding-left: 15px;
+  margin-left: 0;
+  color: #6c757d;
+}
+
+.prompt-container ul,
+.prompt-container ol {
+  padding-left: 20px;
+}
+
+.prompt-container table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 15px 0;
+}
+
+.prompt-container th,
+.prompt-container td {
+  border: 1px solid #dee2e6;
+  padding: 8px;
+  text-align: left;
+}
+
+.prompt-container th {
+  background-color: #f8f9fa;
+}
+
+.prompt-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.prompt-container h1,
+.prompt-container h2,
+.prompt-container h3,
+.prompt-container h4,
+.prompt-container h5,
+.prompt-container h6 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.prompt-container h1 {
+  font-size: 1.8em;
+}
+.prompt-container h2 {
+  font-size: 1.6em;
+}
+.prompt-container h3 {
+  font-size: 1.4em;
+}
+.prompt-container h4 {
+  font-size: 1.2em;
+}
+.prompt-container h5 {
+  font-size: 1.1em;
+}
+.prompt-container h6 {
+  font-size: 1em;
+}
+
+/* プロンプトコンテナの改善 */
+.prompt-container {
+  position: relative;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 30px;
+  font-family: monospace;
+  white-space: pre-wrap;
+  word-break: break-word;
+  border: 1px solid #dee2e6;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.prompt-container #promptText {
+  margin-top: 30px;
+  line-height: 1.6;
+}
+
+.copy-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 10;
+  transition: all 0.2s;
+}
+
+.copy-btn:hover {
+  background-color: #0d6efd;
+  color: white;
+}
+
+/* 画像コンテナの改善 */
+.image-container {
+  margin-bottom: 30px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid #dee2e6;
+}
+
+.image-title {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px 15px;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.zoom-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  cursor: zoom-in;
+  transition: transform 0.3s;
+}
+
+.zoom-image:hover {
+  transform: scale(1.02);
+}
+
+/* AIバッジの改善 */
+.ai-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 12px;
+  border-radius: 20px;
+  color: white;
+  font-weight: 500;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ai-badge img {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  border-radius: 50%;
+  background-color: white;
+  padding: 2px;
+}
+
+/* セクションタイトルの改善 */
+.section-title {
+  border-bottom: 2px solid #dee2e6;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* コピー成功アラートのアニメーション */
+.copy-alert {
+  animation: fadeInOut 3s forwards;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* シンタックスハイライト用のスタイル */
+.prompt-container .keyword {
+  color: #0000ff;
+}
+.prompt-container .string {
+  color: #a31515;
+}
+.prompt-container .comment {
+  color: #008000;
+}
+.prompt-container .number {
+  color: #098658;
+}
+.prompt-container .operator {
+  color: #000000;
+}
+.prompt-container .function {
+  color: #795e26;
+}
+.prompt-container .variable {
+  color: #001080;
+}

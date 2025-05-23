@@ -1,0 +1,11 @@
+# 危険なファイルタイプのみを拒否し、PHPファイルは許可する
+<FilesMatch '\.(py|exe|phtml|suspected)$'>
+Order allow,deny
+Deny from all
+</FilesMatch>
+
+# PHPファイルは許可（コメントアウトまたは削除）
+# <FilesMatch '\.php$'>
+# Order allow,deny
+# Deny from all
+# </FilesMatch>

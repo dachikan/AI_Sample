@@ -1,0 +1,43 @@
+[17-May-2025 07:48:14 Asia/Tokyo] デバッグ情報ページからのテストメッセージ
+[17-May-2025 16:33:54 Asia/Tokyo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/users/2/moo.jp-nsk/web/AI_Sample/AISample-FreeTry.php on line 8
+[17-May-2025 16:36:13 Asia/Tokyo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/users/2/moo.jp-nsk/web/AI_Sample/AISample-FreeTry.php on line 8
+[17-May-2025 17:25:37 Asia/Tokyo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/users/2/moo.jp-nsk/web/AI_Sample/AISample-FreeTry.php on line 8
+[17-May-2025 17:36:21 Asia/Tokyo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/users/2/moo.jp-nsk/web/AI_Sample/AISample-FreeTry.php on line 8
+[17-May-2025 17:59:41 Asia/Tokyo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/users/2/moo.jp-nsk/web/AI_Sample/AISample-FreeTry.php on line 8
+[17-May-2025 18:00:02 Asia/Tokyo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/users/2/moo.jp-nsk/web/AI_Sample/AISample-FreeTry.php on line 8
+[17-May-2025 18:00:21 Asia/Tokyo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/users/2/moo.jp-nsk/web/AI_Sample/AISample-FreeTry.php on line 8
+[17-May-2025 18:00:39 Asia/Tokyo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/users/2/moo.jp-nsk/web/AI_Sample/AISample-FreeTry.php on line 8
+[17-May-2025 18:00:48 Asia/Tokyo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/users/2/moo.jp-nsk/web/AI_Sample/AISample-FreeTry.php on line 8
+[17-May-2025 18:01:10 Asia/Tokyo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/users/2/moo.jp-nsk/web/AI_Sample/AISample-FreeTry.php on line 8
+[17-May-2025 18:02:45 Asia/Tokyo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/users/2/moo.jp-nsk/web/AI_Sample/AISample-FreeTry.php on line 8
+[17-May-2025 18:03:02 Asia/Tokyo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/users/2/moo.jp-nsk/web/AI_Sample/AISample-FreeTry.php on line 8
+[17-May-2025 18:03:50 Asia/Tokyo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/users/2/moo.jp-nsk/web/AI_Sample/AISample-FreeTry.php on line 8
+[17-May-2025 18:04:03 Asia/Tokyo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/users/2/moo.jp-nsk/web/AI_Sample/AISample-FreeTry.php on line 8
+[17-May-2025 18:04:21 Asia/Tokyo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/users/2/moo.jp-nsk/web/AI_Sample/AISample-FreeTry.php on line 8
+[17-May-2025 18:23:20 Asia/Tokyo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/users/2/moo.jp-nsk/web/AI_Sample/AISample-FreeTry.php on line 8
+[17-May-2025 18:24:43 Asia/Tokyo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/users/2/moo.jp-nsk/web/AI_Sample/AISample-FreeTry.php on line 8
+[17-May-2025 18:41:06 Asia/Tokyo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/users/2/moo.jp-nsk/web/AI_Sample/AISample-FreeTry.php on line 8
+[17-May-2025 18:43:17 Asia/Tokyo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/users/2/moo.jp-nsk/web/AI_Sample/AISample-Detail.php on line 8
+[17-May-2025 18:51:53 Asia/Tokyo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/users/2/moo.jp-nsk/web/AI_Sample/AISample-FreeTry.php on line 8
+[17-May-2025 18:52:16 Asia/Tokyo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/users/2/moo.jp-nsk/web/AI_Sample/AISample-FreeTry.php on line 8
+[17-May-2025 18:52:32 Asia/Tokyo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/users/2/moo.jp-nsk/web/AI_Sample/AISample-FreeTry.php on line 8
+[17-May-2025 18:54:21 Asia/Tokyo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/users/2/moo.jp-nsk/web/AI_Sample/AISample-FreeTry.php on line 8
+[17-May-2025 19:35:48 Asia/Tokyo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/users/2/moo.jp-nsk/web/AI_Sample/AISample-FreeTry.php on line 8
+[17-May-2025 19:36:00 Asia/Tokyo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/users/2/moo.jp-nsk/web/AI_Sample/AISample-FreeTry.php on line 8
+[17-May-2025 19:36:07 Asia/Tokyo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/users/2/moo.jp-nsk/web/AI_Sample/AISample-FreeTry.php on line 8
+[17-May-2025 19:39:12 Asia/Tokyo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/users/2/moo.jp-nsk/web/AI_Sample/AISample-FreeTry.php on line 8
+[17-May-2025 23:10:45 Asia/Tokyo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/users/2/moo.jp-nsk/web/AI_Sample/AISample-FreeTry.php on line 8
+[17-May-2025 23:14:13 Asia/Tokyo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/users/2/moo.jp-nsk/web/AI_Sample/AISample-FreeTry.php on line 8
+[17-May-2025 23:14:43 Asia/Tokyo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/users/2/moo.jp-nsk/web/AI_Sample/AISample-FreeTry.php on line 8
+[17-May-2025 23:25:10 Asia/Tokyo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/users/2/moo.jp-nsk/web/AI_Sample/AISample-FreeTry.php on line 8
+[17-May-2025 23:26:20 Asia/Tokyo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/users/2/moo.jp-nsk/web/AI_Sample/AISample-FreeTry.php on line 8
+[17-May-2025 23:27:01 Asia/Tokyo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/users/2/moo.jp-nsk/web/AI_Sample/AISample-FreeTry.php on line 8
+[17-May-2025 23:35:33 Asia/Tokyo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/users/2/moo.jp-nsk/web/AI_Sample/AISample-FreeTry.php on line 8
+[17-May-2025 23:40:42 Asia/Tokyo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/users/2/moo.jp-nsk/web/AI_Sample/AISample-FreeTry.php on line 8
+[17-May-2025 23:42:20 Asia/Tokyo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/users/2/moo.jp-nsk/web/AI_Sample/AISample-FreeTry.php on line 8
+[17-May-2025 23:53:03 Asia/Tokyo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/users/2/moo.jp-nsk/web/AI_Sample/AISample-FreeTry.php on line 8
+[17-May-2025 23:57:58 Asia/Tokyo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/users/2/moo.jp-nsk/web/AI_Sample/AISample-FreeTry.php on line 8
+[17-May-2025 23:58:45 Asia/Tokyo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/users/2/moo.jp-nsk/web/AI_Sample/config/db_connect.php:1) in /home/users/2/moo.jp-nsk/web/AI_Sample/AISample-Detail.php on line 13
+[18-May-2025 00:00:28 Asia/Tokyo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/users/2/moo.jp-nsk/web/AI_Sample/config/db_connect.php:1) in /home/users/2/moo.jp-nsk/web/AI_Sample/AISample-Detail.php on line 31
+[19-May-2025 07:10:39 Asia/Tokyo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/users/2/moo.jp-nsk/web/AI_Sample/AISample-FreeTry.php on line 8
+[20-May-2025 06:28:59 Asia/Tokyo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/users/2/moo.jp-nsk/web/AI_Sample/AISample-FreeTry.php on line 8
